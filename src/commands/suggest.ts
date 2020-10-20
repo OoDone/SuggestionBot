@@ -67,7 +67,7 @@ export default class SuggestCommand implements ICommand {
         });
 
         await msg.react('✅');
-        await msg.react('❎');
+        await msg.react('❌');
 
         message.channel.send({
             embed: new MessageEmbed()
